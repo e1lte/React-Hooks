@@ -4,6 +4,7 @@ import { useCallback, useState } from "react";
 import Child from "./Child";
 import HTab from "./useTransition/Htab";
 import TaskApp from "./useTransition/TaskList";
+import UseImage from "./useTransition/UseImage";
 export default function Home() {
     const [num, setNum] = useState(0);
     const [name, setName] = useState("Lucy");
@@ -38,6 +39,7 @@ export default function Home() {
             <HTab />
             <br />
             <TaskApp />
+            <UseImage />
         </>
     );
 }
